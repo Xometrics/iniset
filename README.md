@@ -10,4 +10,5 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
 ![SnakeGame-MachineLearningGIF](https://user-images.githubusercontent.com/42211866/71905634-8a821f80-3136-11ea-8792-7896339eda18.gif)
 
 ## Challenges
-- The most challenging part of this project was to build a metho
+- The most challenging part of this project was to build a method to learn from it's mistake and not take the same move from the next time.
+-
