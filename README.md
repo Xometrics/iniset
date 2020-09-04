@@ -11,4 +11,4 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
 
 ## Challenges
 - The most challenging part of this project was to build a method to learn from it's mistake and not take the same move from the next time.
--
+- the code below is mostly about the possible movement for the snake but moving the body to the dire
