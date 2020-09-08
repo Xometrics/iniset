@@ -31,4 +31,5 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
         
         if movablePixel == true {
             if sponeRed >= 20 {
-                cellCollection[(snakeArr[s
+                cellCollection[(snakeArr[snakeArr.count - 1].tag) + (movingDirection)].backgroundColor = .blue
+                snakeArr.la
