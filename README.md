@@ -21,4 +21,5 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
         while movablePixel == false {
             movingDirection = randomMovement.remove(randomMovement.randomElement()!)!
                 addToCurrentMovingPattern(movingDirection)
-            if currentPattern.co
+            if currentPattern.count >= 4 && failierPattern.contains(currentPattern) && !randomMovement.isEmpty {
+                    pr
