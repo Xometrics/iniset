@@ -29,4 +29,6 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
                 }
             }
         
-        if movablePi
+        if movablePixel == true {
+            if sponeRed >= 20 {
+                cellCollection[(snakeArr[s
