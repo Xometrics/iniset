@@ -14,4 +14,6 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
 - the code below is mostly about the possible movement for the snake but moving the body to the direction the head moved was pretty challenging as well
 
 ```swift
-    func mov
+    func moveSnake() {
+        var movablePixel = false
+        var randomMovement: Set<Int> = pos
