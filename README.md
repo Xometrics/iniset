@@ -20,4 +20,5 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
         var movingDirection = 0
         while movablePixel == false {
             movingDirection = randomMovement.remove(randomMovement.randomElement()!)!
-       
+                addToCurrentMovingPattern(movingDirection)
+            if currentPattern.co
