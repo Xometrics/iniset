@@ -33,4 +33,5 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
             if sponeRed >= 20 {
                 cellCollection[(snakeArr[snakeArr.count - 1].tag) + (movingDirection)].backgroundColor = .blue
                 snakeArr.last!.backgroundColor = .green
-                snakeArr.append(cellCollection
+                snakeArr.append(cellCollection[(snakeArr[snakeArr.count - 1].tag) + (movingDirection)])
+                sponeRed = 1
