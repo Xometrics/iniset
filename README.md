@@ -36,4 +36,5 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
                 snakeArr.append(cellCollection[(snakeArr[snakeArr.count - 1].tag) + (movingDirection)])
                 sponeRed = 1
             } else {
-                for (index, pixel) in snakeArr.enumerated() where cellCollection[(snakeArr[sn
+                for (index, pixel) in snakeArr.enumerated() where cellCollection[(snakeArr[snakeArr.count - 1].tag) + (movingDirection)].backgroundColor != .red {
+             
