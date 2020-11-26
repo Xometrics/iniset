@@ -44,4 +44,5 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
                     } else if snakeArr.count == 1{
                         snakeArr[index].backgroundColor = .black
                         snakeArr[index] = cellCollection[(pixel.tag) + (movingDirection)]
-    
+                        snakeArr[index].backgroundColor = .green
+                    }
