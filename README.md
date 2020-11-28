@@ -50,4 +50,8 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
                         snakeArr[index].backgroundColor = .green
                     } else {
                         snakeArr[index] = cellCollection[(pixel.tag) + (movingDirection)]
-                        snakeArr[index].backgroundCo
+                        snakeArr[index].backgroundColor = .blue
+                    }
+                }
+            }
+            spone
