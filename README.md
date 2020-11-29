@@ -54,4 +54,8 @@ A conceptual take on the classic game, Snake, that incorporates a custom AI grow
                     }
                 }
             }
-            spone
+            sponeRed += 1
+        }
+        
+        if possibleMove().isEmpty {
+            le
