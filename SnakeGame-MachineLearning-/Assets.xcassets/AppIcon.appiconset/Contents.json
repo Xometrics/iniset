@@ -41,4 +41,9 @@
       "scale" : "3x"
     },
     {
-      "idio
+      "idiom" : "ipad",
+      "size" : "20x20",
+      "scale" : "1x"
+    },
+    {
+      "idiom" 
