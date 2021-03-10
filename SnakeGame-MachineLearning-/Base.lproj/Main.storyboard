@@ -7,4 +7,6 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scen
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" custo
