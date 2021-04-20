@@ -14,4 +14,8 @@ struct CustomData {
     var url: String
 }
 
-class CustomCell: UICol
+class CustomCell: UICollectionViewCell {
+    
+    var data: CustomData? {
+        didSet {
+            guard let data =
