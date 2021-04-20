@@ -8,4 +8,10 @@
 
 import UIKit
 
-struct Cust
+struct CustomData {
+    var title: String
+    var image: UIImage
+    var url: String
+}
+
+class CustomCell: UICol
