@@ -25,4 +25,6 @@ class CustomCell: UICollectionViewCell {
     
     fileprivate let bg: UIImageView = {
         let iv = UIImageView()
-        iv.translatesAutore
+        iv.translatesAutoresizingMaskIntoConstraints = false
+        iv.contentMode = .scaleAspectFill
+     
