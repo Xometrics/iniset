@@ -23,4 +23,6 @@ class CustomCell: UICollectionViewCell {
         }
     }
     
-    filepri
+    fileprivate let bg: UIImageView = {
+        let iv = UIImageView()
+        iv.translatesAutore
