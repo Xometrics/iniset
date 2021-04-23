@@ -18,4 +18,9 @@ class CustomCell: UICollectionViewCell {
     
     var data: CustomData? {
         didSet {
-            guard let data =
+            guard let data = data else { return }
+            bg.image = data.image
+        }
+    }
+    
+    filepri
