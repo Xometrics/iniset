@@ -35,3 +35,5 @@ class CustomCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        contentView.addSubview(bg)
+        bg.topAnchor.constraint(equalTo: con
