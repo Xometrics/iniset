@@ -37,4 +37,5 @@ class CustomCell: UICollectionViewCell {
         
         contentView.addSubview(bg)
         bg.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
-        bg.leadingAnchor.constraint(equ
+        bg.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
+        bg.trailingAnchor.constraint(equalTo: co
