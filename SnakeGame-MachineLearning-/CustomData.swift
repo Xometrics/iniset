@@ -39,4 +39,9 @@ class CustomCell: UICollectionViewCell {
         bg.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
         bg.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
         bg.trailingAnchor.constraint(equalTo: contentView.trailingAnchor).isActive = true
-        bg.bottomAnchor.constraint(equalTo: contentView.bot
+        bg.bottomAnchor.constraint(equalTo: contentView.bottomAnchor).isActive = true
+        
+    }
+    
+    required init?(coder: NSCoder) {
+        fatal
