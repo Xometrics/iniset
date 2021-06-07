@@ -44,4 +44,6 @@ class CustomCell: UICollectionViewCell {
     }
     
     required init?(coder: NSCoder) {
-        fatal
+        fatalError("init(coder:) has not been implemented")
+    }
+}
