@@ -37,4 +37,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This may occur due to temporary interruptions (ex. an incoming phone call).
     }
 
-    
+    func sceneWillEnterForeground(_ scene: UIScene) {
+        // Called as the scene tra
