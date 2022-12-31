@@ -40,3 +40,85 @@
 		6C46051F239EDE8A0069427F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C460524239EDE8A0069427F /* SnakeGame-MachineLearning-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SnakeGame-MachineLearning-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C460528239EDE8A0069427F /* SnakeGame_MachineLearning_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeGame_MachineLearning_Tests.swift; sourceTree = "<group>"; };
+		6C46052A239EDE8A0069427F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C460533239EDEE00069427F /* CustomData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomData.swift; sourceTree = "<group>"; };
+		6C460537239F22EA0069427F /* LearningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C46050B239EDE860069427F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C460521239EDE8A0069427F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C460505239EDE860069427F = {
+			isa = PBXGroup;
+			children = (
+				6C460510239EDE860069427F /* SnakeGame-MachineLearning- */,
+				6C460527239EDE8A0069427F /* SnakeGame-MachineLearning-Tests */,
+				6C46050F239EDE860069427F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C46050F239EDE860069427F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C46050E239EDE860069427F /* SnakeGame-MachineLearning-.app */,
+				6C460524239EDE8A0069427F /* SnakeGame-MachineLearning-Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C460510239EDE860069427F /* SnakeGame-MachineLearning- */ = {
+			isa = PBXGroup;
+			children = (
+				6C460511239EDE860069427F /* AppDelegate.swift */,
+				6C460513239EDE860069427F /* SceneDelegate.swift */,
+				6C460515239EDE860069427F /* ViewController.swift */,
+				6C460537239F22EA0069427F /* LearningData.swift */,
+				6C460533239EDEE00069427F /* CustomData.swift */,
+				6C460517239EDE860069427F /* Main.storyboard */,
+				6C46051A239EDE8A0069427F /* Assets.xcassets */,
+				6C46051C239EDE8A0069427F /* LaunchScreen.storyboard */,
+				6C46051F239EDE8A0069427F /* Info.plist */,
+			);
+			path = "SnakeGame-MachineLearning-";
+			sourceTree = "<group>";
+		};
+		6C460527239EDE8A0069427F /* SnakeGame-MachineLearning-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6C460528239EDE8A0069427F /* SnakeGame_MachineLearning_Tests.swift */,
+				6C46052A239EDE8A0069427F /* Info.plist */,
+			);
+			path = "SnakeGame-MachineLearning-Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C46050D239EDE860069427F /* SnakeGame-MachineLearning- */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C46052D239EDE8B0069427F /* Build configuration list for PBXNativeTarget "SnakeGame-MachineLearning-" */;
+			buildPhases = (
+				6C46050A239EDE860069427F /* Sources */,
+				6C46050B239EDE860069427F /* Frameworks */,
+				6C46050C239EDE860069427F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SnakeGame-MachineLearning-";
