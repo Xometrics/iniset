@@ -164,3 +164,77 @@ extension ViewController {
                     } else if pixel != snakeArr.last {
                         snakeArr[index] = snakeArr[index + 1]
                         snakeArr[index].backgroundColor = .green
+                    } else {
+                        snakeArr[index] = cellCollection[(pixel.tag) + (movingDirection)]
+                        snakeArr[index].backgroundColor = .blue
+                    }
+                }
+            }
+            sponeRed += 1
+        }
+  
+//        print(failierPattern)
+//        print(currentPattern)
+//        print("===============================")
+        
+        if possibleMove().isEmpty {
+            learn()
+        }
+    }
+    
+    func learn() {
+        gameTimer?.invalidate()
+        failierPattern.insert(currentPattern)
+        averageScore.append(currentPattern.count)
+        currentPattern = []
+        
+        for cell in cellCollection {
+            if cell.backgroundColor == .black {
+                cellCount = 0
+                count = 0
+                snakeArr = []
+                pixelSet = []
+                print("+++++++++++")
+                print("dead end")
+                print("+++++++++++")
+                gameTimer = Timer.scheduledTimer(timeInterval: 0.0005, target: self, selector: #selector(createBoard), userInfo: nil, repeats: true)
+                return
+            }
+        }
+        print("The snake was completed")
+    }
+    
+    func possibleMove() -> Set<Int> {
+        var number: Set<Int> = [1, -1, 17, -17]
+        var result = Set<Int>()
+        while !number.isEmpty {
+            let randomNum = number.remove(number.randomElement()!)!
+            if snakeBodyPixel(movementNumber: randomNum, tagNumber: snakeArr.last!.tag) {
+                result.insert(randomNum)
+            }
+        }
+        return result
+    }
+    
+    func addToCurrentMovingPattern(_ movingDirection: Int) {
+        if currentPattern.count < snakeArr.count * 2 {
+            currentPattern.append(movingDirection)
+            currentPattern.append(snakeArr[snakeArr.count - 1].tag)
+        } else {
+            for num in 0..<currentPattern.count - 1 where num < currentPattern.count - 2 {
+                currentPattern[num] = currentPattern[num + 2]
+            }
+            currentPattern[currentPattern.count - 2] = movingDirection
+            currentPattern[currentPattern.count - 1] = snakeArr[snakeArr.count - 1].tag
+        }
+    }
+    
+    func snakeBodyPixel(movementNumber: Int, tagNumber: Int) -> Bool {
+        let number = movementNumber + tagNumber
+        pixelSet = []
+        for snakePixel in snakeArr {
+            pixelSet.insert(snakePixel.tag)
+        }
+        if (movementNumber == 1 && !rightEdgeNumbers.contains(tagNumber)) && !pixelSet.contains(number) || (movementNumber == -1 && !leftEdgeNumber.contains(tagNumber)) && !pixelSet.contains(number) ||  (!topRowNumber.contains(tagNumber) && movementNumber == -17) && !pixelSet.contains(number) || (!bottomRowNumber.contains(tagNumber) && movementNumber == 17 && !pixelSet.contains(number)) {
+            return true
+        }
