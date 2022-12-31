@@ -1,0 +1,42 @@
+
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C460512239EDE860069427F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C460511239EDE860069427F /* AppDelegate.swift */; };
+		6C460514239EDE860069427F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C460513239EDE860069427F /* SceneDelegate.swift */; };
+		6C460516239EDE860069427F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C460515239EDE860069427F /* ViewController.swift */; };
+		6C460519239EDE860069427F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C460517239EDE860069427F /* Main.storyboard */; };
+		6C46051B239EDE8A0069427F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C46051A239EDE8A0069427F /* Assets.xcassets */; };
+		6C46051E239EDE8A0069427F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C46051C239EDE8A0069427F /* LaunchScreen.storyboard */; };
+		6C460529239EDE8A0069427F /* SnakeGame_MachineLearning_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C460528239EDE8A0069427F /* SnakeGame_MachineLearning_Tests.swift */; };
+		6C460534239EDEE00069427F /* CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C460533239EDEE00069427F /* CustomData.swift */; };
+		6C460538239F22EA0069427F /* LearningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C460537239F22EA0069427F /* LearningData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C460525239EDE8A0069427F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C460506239EDE860069427F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C46050D239EDE860069427F;
+			remoteInfo = "SnakeGame-MachineLearning-";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C46050E239EDE860069427F /* SnakeGame-MachineLearning-.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SnakeGame-MachineLearning-.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C460511239EDE860069427F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C460513239EDE860069427F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C460515239EDE860069427F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C460518239EDE860069427F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C46051A239EDE8A0069427F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C46051D239EDE8A0069427F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C46051F239EDE8A0069427F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C460524239EDE8A0069427F /* SnakeGame-MachineLearning-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SnakeGame-MachineLearning-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C460528239EDE8A0069427F /* SnakeGame_MachineLearning_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeGame_MachineLearning_Tests.swift; sourceTree = "<group>"; };
