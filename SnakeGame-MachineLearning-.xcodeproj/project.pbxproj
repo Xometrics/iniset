@@ -122,3 +122,86 @@
 			dependencies = (
 			);
 			name = "SnakeGame-MachineLearning-";
+			productName = "SnakeGame-MachineLearning-";
+			productReference = 6C46050E239EDE860069427F /* SnakeGame-MachineLearning-.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C460523239EDE8A0069427F /* SnakeGame-MachineLearning-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C460530239EDE8B0069427F /* Build configuration list for PBXNativeTarget "SnakeGame-MachineLearning-Tests" */;
+			buildPhases = (
+				6C460520239EDE8A0069427F /* Sources */,
+				6C460521239EDE8A0069427F /* Frameworks */,
+				6C460522239EDE8A0069427F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C460526239EDE8A0069427F /* PBXTargetDependency */,
+			);
+			name = "SnakeGame-MachineLearning-Tests";
+			productName = "SnakeGame-MachineLearning-Tests";
+			productReference = 6C460524239EDE8A0069427F /* SnakeGame-MachineLearning-Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C460506239EDE860069427F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Edward O'Neill";
+				TargetAttributes = {
+					6C46050D239EDE860069427F = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					6C460523239EDE8A0069427F = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 6C46050D239EDE860069427F;
+					};
+				};
+			};
+			buildConfigurationList = 6C460509239EDE860069427F /* Build configuration list for PBXProject "SnakeGame-MachineLearning-" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C460505239EDE860069427F;
+			productRefGroup = 6C46050F239EDE860069427F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C46050D239EDE860069427F /* SnakeGame-MachineLearning- */,
+				6C460523239EDE8A0069427F /* SnakeGame-MachineLearning-Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C46050C239EDE860069427F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C46051E239EDE8A0069427F /* LaunchScreen.storyboard in Resources */,
+				6C46051B239EDE8A0069427F /* Assets.xcassets in Resources */,
+				6C460519239EDE860069427F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C460522239EDE8A0069427F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C46050A239EDE860069427F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
