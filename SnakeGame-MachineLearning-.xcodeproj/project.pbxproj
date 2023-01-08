@@ -458,3 +458,28 @@
 				6C46052B239EDE8A0069427F /* Debug */,
 				6C46052C239EDE8A0069427F /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C46052D239EDE8B0069427F /* Build configuration list for PBXNativeTarget "SnakeGame-MachineLearning-" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C46052E239EDE8B0069427F /* Debug */,
+				6C46052F239EDE8B0069427F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C460530239EDE8B0069427F /* Build configuration list for PBXNativeTarget "SnakeGame-MachineLearning-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C460531239EDE8B0069427F /* Debug */,
+				6C460532239EDE8B0069427F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C460506239EDE860069427F /* Project object */;
+}
