@@ -3,3 +3,5 @@
    version = "1.0">
    <FileRef
       location = "self:SnakeGame-MachineLearning-.xcodeproj">
+   </FileRef>
+</Workspace>
