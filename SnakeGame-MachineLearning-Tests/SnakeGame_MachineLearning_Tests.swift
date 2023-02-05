@@ -9,4 +9,7 @@
 import XCTest
 @testable import SnakeGame_MachineLearning_
 
-class SnakeGa
+class SnakeGame_MachineLearning_Tests: XCTestCase {
+
+    override func setUp() {
+        // Put setup co
